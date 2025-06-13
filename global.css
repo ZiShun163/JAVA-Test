@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  .nav a {
+    color: #fff;
+    margin-right: 16px;
+    text-decoration: none;
+  }
+  .nav a.router-link-active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .nav .logout {
+    float: right;
+  }
